@@ -1,0 +1,628 @@
+/*
+ Author
+
+Name: Nusrat Nishat;
+Email : nusratnishat565@gmail.com;
+
+*/
+
+
+/*
+
+=====Index=====
+
+1.home
+2.Banner 
+3.About
+4.approch
+5.work 
+6.Analysis
+7.contact 
+8.footer
+9.media query
+
+*
+
+/*Global CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Theme CSS*/
+
+body{
+
+
+    font-family: 'Bold', sans-serif;    
+}
+
+
+/*home start*/
+nav i {
+	color: black!important;
+}
+
+
+.nav-head {
+
+	padding: 0px 0px;
+}
+
+.nav-item {
+	margin: 0px 5px;
+}
+
+.nav-dot{
+	 margin: -12px 3px;
+     font-size: 43px;
+}
+
+.nav-link {
+	color: #161616!important;
+
+}
+
+.nav-link.js-scroll-trigger.active {
+	color: #dd4b2b!important;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+
+
+.consult{
+
+	background-color: #dd2b23;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+    border-radius: 6px;
+    border-color: #dd2b23;
+    margin: 31px;
+    padding: 8px;
+} 
+
+.consult:hover {
+	background-color: maroon;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+/*home end*/
+
+
+/*Banner starts*/
+
+.banner{
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+h3{
+   font-size: 62px;
+}
+
+p{
+    font-size: 30px;
+    
+}
+
+.banner-button{
+	color: white;
+    background-color: #f7cd53;
+    border: none;
+    padding: 10px 45px;
+}
+
+/*Banner end*/
+
+
+/*About starts*/
+
+.about-us{
+	text-align: center;
+}
+.about-us h3{
+
+}
+
+.about-us p{
+   color: #9d9d9d;
+}
+
+.about-us span{
+    border-bottom: 10px solid black;
+    width: 7%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 106px;
+}
+
+.about h5{
+      padding: 26px;
+    font-size: 30px;
+
+}
+
+.about p{
+	color: #9d9d9d;
+	font-size: 20px;
+}
+/*About end*/
+
+/*approch starts*/
+
+.approch{
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.approch h4{
+    font-size: 47px;
+}
+
+.approch p{
+    color: black;
+	font-size: 20px;
+}
+
+.approch span{
+    border-bottom: 10px solid black;
+    width: 7%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 106px;
+}
+
+.first-step{
+	background-color: white;
+   margin: 20px 0px;
+}
+
+.parent{
+	position: relative;
+}
+
+.first-step span{
+     position: absolute;
+    background-color: #dd2b23;
+    border: white;
+    top: 70px;
+    right: -2%;
+    width: 14%;
+    height: 29%;
+
+}
+
+.first-step span h5{
+   color: white;
+   font-size: 40px;
+}
+
+.first-step span p{
+  color: white;
+    font-size: 15px;
+    margin-top: -18px;
+}
+
+.second-step{
+    background-color: white;
+    margin: 20px 0px;
+}
+
+.parent{
+    position: relative;
+}
+
+.second-step span{
+     position: absolute;
+    background-color: #dd2b23;
+    border: white;
+    top: 70px;
+    right: 88%;
+    width: 14%;
+    height: 29%;
+
+}
+
+.second-step span h2{
+   color: white;
+   font-size: 40px;
+}
+
+.second-step span p{
+  color: white;
+    font-size: 15px;
+    margin-top: -18px;
+}
+
+
+.third-step{
+    background-color: white;
+   margin: 20px 0px;
+}
+
+.parent{
+    position: relative;
+}
+
+.third-step span{
+     position: absolute;
+    background-color: #dd2b23;
+    border: white;
+    top: 70px;
+    right: -3%;
+    width: 14%;
+    height: 29%;
+
+}
+
+.third-step span h2{
+   color: white;
+   font-size: 40px;
+}
+
+.third-step span p{
+  color: white;
+    font-size: 15px;
+    margin-top: -18px;
+}
+
+
+.fourth-step{
+    background-color: white;
+    margin: 20px 0px;
+}
+
+.parent{
+    position: relative;
+}
+
+
+.fourth-step span{
+     position: absolute;
+    background-color: #dd2b23;
+    border: white;
+    top: 70px;
+    right: 88%;
+    width: 14%;
+    height: 29%;
+
+}
+
+.fourth-step span h2{
+   color: white;
+   font-size: 40px;
+}
+
+.fourth-step span p{
+  color: white;
+    font-size: 15px;
+    margin-top: -18px;
+}
+
+/*approch end*/
+
+
+/*work part starts*/
+
+.work{
+  text-align: center;
+  background-color: #de2b24;
+  color: white;
+}
+
+.row-3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -18%;
+    margin-left: 12%;
+}
+
+.work span{
+    border-bottom: 10px solid white;
+    width: 7%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 106px;
+}
+
+.col-md-3{
+   max-width: 22%;
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.project{
+    background-color: #f35e59;
+    padding: 38px;
+    padding-top: 64px;
+
+}
+
+
+.project p{
+    font-size: 20px;
+}
+/*work part end*/
+
+
+/*Analysis part start*/
+
+
+.analysis{
+    background-color: #1287bf;
+    text-align: center;
+}
+
+.form{
+      height: 471px;
+    text-align: center;
+    position: relative
+}
+
+.form p{
+  font-size: 21px;
+    padding: 51px 156px;
+    color: #828282;
+    
+}
+
+.form-control{
+     display: block;
+    width: 78%;
+    margin: 19px 105px;
+}
+
+.form-btn{
+      background-color: #de2b24;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+    border-radius: 6px;
+    border-color: #dd2b23;
+    padding: 11px;
+}
+
+.form-btn:hover {
+    background-color: maroon;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.cntrl{
+    
+    position: absolute;
+    right: -2%;
+    height: 52px;
+    width: 50px;
+    top: -7%;
+}
+
+
+/*Analysis part end*/
+
+
+/*contact part start*/
+
+.touch{
+    background-color: #2a2a2a;
+    text-align: center;
+    color: white;
+}
+
+.touch ul{
+       list-style: none;
+    padding: 40px;
+    
+}
+
+.touch ul li{
+      display: inline;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 13px;
+
+
+}
+
+.touch ul li:hover {
+    border: 1px solid maroon;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.touch p{
+    color: #515151;
+    font-size: 20px;
+ } 
+
+.emailbar{
+      background-color: #515151;
+    border: none;
+    margin: 50px 0px;
+    width: 81%;
+    padding: 5px 55px;;
+}
+
+.subscribtion{
+    width: 21%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.subscribtion:hover {
+    border: 1px solid maroon;
+    color:  maroon;
+    transition: 0.4s ease;
+}
+
+/*contact part end*/
+
+
+/*footer part start*/
+
+.foot{
+    background-color: #515151;
+     color: white;
+     text-align: center;
+     padding: 20px;
+    
+}
+
+/*footer part end*/
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 500px){
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width: 500px) and (max-width:768px){ 
+
+section {
+    padding: 22px 0;
+ }
+ 
+ .consult {
+    
+    font-size: 11px;
+    margin: 31px 196px;
+   
+}   
+
+h3 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 21px;
+}
+
+.banner-button {
+    color: white;
+    background-color: #f7cd53;
+    border: none;
+    font-size: 18px;
+    margin: 36px;
+    padding: 7px 11px;
+}
+
+.col-md-3 {
+    max-width: 44%;
+    position: relative;
+    width: 100%;    
+}
+
+.row-3 {
+    margin-right: 0%;
+    margin-left: 0%;
+
+}
+
+.row {
+    
+     margin-right: 0%;
+    margin-left: 0%; 
+}
+.project {
+    background-color: #f35e59;
+    padding: 12px;
+    padding-top: 56px;
+}
+
+.first-step span {
+    right: 10%;
+}
+
+.second-step span {
+    right: 78%;
+ }
+ 
+.third-step span {
+    right: 10%;
+}
+
+.fourth-step span {
+    right: 78%;
+}
+ 
+
+.approch p {
+    color: black;
+    font-size: 12px;
+}
+
+.analysis h2{
+    font-size: 20px;
+}
+
+.form p {
+    font-size: 15px;
+    padding: 51px 18px;
+    color: #828282;
+}
+
+.form-control {
+    display: block;
+    width: 78%;
+    margin: 19px 60px;
+}
+
+.subscribtion {
+    width: 30%;
+
+}
+
+
+}
+/*small device */
+
+/*Medium device start*/
+ 
+
+@media (min-width: 768.01px) and (max-width:1199px){ 
+
+
+section {
+    padding: 16px 0;
+}
+
+.row-3 {
+       margin-right: -22%;
+    margin-left: -24%;
+}
+
+
+
+}
+
+	
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 1200.01px){
+
+}
+
+/*large device end
